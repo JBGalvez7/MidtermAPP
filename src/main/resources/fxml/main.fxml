@@ -6,9 +6,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.stef.controller.MainController">
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.stef.controller.MainController">
 <children>
-    <Label layoutX="14.0" layoutY="-32.0" prefHeight="125.0" prefWidth="329.0" text="STUDENT DETAILS:">
+    <Label layoutX="14.0" layoutY="-25.0" prefHeight="125.0" prefWidth="329.0" text="STUDENT DETAILS:">
         <font>
             <Font name="Bell MT" size="24.0" />
         </font>
