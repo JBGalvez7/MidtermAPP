@@ -1,10 +1,8 @@
-package com.appj.controller;
+package com.stef.controller;
 
-import com.appj.DatabaseConnection;
-import com.appj.model.Student;
-import javafx.beans.Observable;
+import com.stef.DatabaseConnection;
+import com.stef.model.Student;
 import javafx.collections.FXCollections;
-import javafx.collections.ObservableArray;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;

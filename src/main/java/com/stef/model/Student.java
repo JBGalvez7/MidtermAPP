@@ -1,4 +1,4 @@
-package com.appj.model;
+package com.stef.model;
 
 public class Student {
     private int id;
