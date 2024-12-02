@@ -172,7 +172,6 @@ public class MainController {
                 e.printStackTrace();
             }
         } else {
-            // Fixed the number of placeholders to 8 for the UPDATE query
             String sql = "UPDATE students SET first_name = ?, last_name = ?, middle_name = ?, address = ?, email = ?, phone_number = ?, gender = ? WHERE id = ?";
             try (PreparedStatement pstmt = db.getConnection().prepareStatement(sql)) {
                 pstmt.setString(1, firstName.getText());
@@ -182,7 +181,7 @@ public class MainController {
                 pstmt.setString(5, email.getText());
                 pstmt.setString(6, number.getText());
                 pstmt.setString(7, genderMale.isSelected() ? "Male" : "Female");
-                pstmt.setInt(8, studentId); // Add the studentId parameter here
+                pstmt.setInt(8, studentId);
 
                 if (pstmt.executeUpdate() == 1) {
                     clearInputFields();
