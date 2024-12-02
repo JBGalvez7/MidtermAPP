@@ -1,4 +1,4 @@
-package com.stef;
+package com.joules;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

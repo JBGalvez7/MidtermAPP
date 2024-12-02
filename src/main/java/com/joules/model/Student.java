@@ -1,4 +1,4 @@
-package com.stef.model;
+package com.joules.model;
 
 public class Student {
     private int id;
